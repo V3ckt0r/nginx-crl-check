@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/V3ckt0r/docker-nginx-openssl1.0.2.svg?branch=master)](https://travis-ci.org/V3ckt0r/docker-nginx-openssl1.0.2)
+[![Build Status](https://travis-ci.org/V3ckt0r/nginx-crl-check.svg?branch=master)](https://travis-ci.org/V3ckt0r/docker-nginx-openssl1.0.2)
 
 # mon-crl-check
 A dockerized fork for nginx 1.12.0 customised to only check CRL leafe nodes.
