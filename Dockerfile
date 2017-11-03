@@ -3,7 +3,7 @@ Maintainer V3ckt0r
 LABEL Vendor="Nginx http2 openssl1.0.2j ALPN"
 
 # Install packages
-RUN apt-get update && apt-get install -y ca-certificates build-essential wget libpcre3 libpcre3-dev zlib1g zlib1g-dev libssl-dev libperl-dev
+RUN apt-get update && apt-get install -y ca-certificates build-essential wget libpcre3 libpcre3-dev zlib1g zlib1g-dev libssl-dev libperl-dev curl
 
 #Compile openssl
 ENV OPENSSL_VERSION ${OPENSSL_VERSION:-1_0_2j}
