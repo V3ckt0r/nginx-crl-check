@@ -20,4 +20,4 @@ This image does a number of things:
 If looking for an RPM equivalent you can find one [here](https://github.com/bbc/nginx-centos).
 
 ## Roadmap
- - There is not intention to maintain this going forwards. Rather than doing this for the long term, you should get your organisation to start issuing CRLs for Root CAs.
+ - There is no intention to maintain this going forwards. Rather than doing this for the long term, you should get your organisation to start issuing CRLs for Root CAs.
