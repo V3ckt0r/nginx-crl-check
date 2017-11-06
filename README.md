@@ -16,6 +16,9 @@ This image does a number of things:
  - Compiles Openssl 1.0.2 from source.
  - Compiles Nginx 1.12.0 from source. The version compiled is default 1.12.0, however this image makes changes to the src to make Nginx only check leafe nodes for CRLs. This is required if your organisation do not issue CRLs for the root CA. Nginx expects CRLs for every CA chain, this fork makes it so it will work with just leafe nodes.
 
+## Docker image
+The docker image for this repo can be found [here](https://hub.docker.com/r/vect0r/nginx-crl-check/)
+
 ## Further information
 If looking for an RPM equivalent you can find one [here](https://github.com/bbc/nginx-centos).
 
