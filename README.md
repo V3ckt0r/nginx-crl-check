@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/V3ckt0r/nginx-crl-check.svg?branch=master)](https://travis-ci.org/V3ckt0r/docker-nginx-openssl1.0.2)
 
 # mon-crl-check
-A dockerized fork for nginx 1.12.0 customised to only check CRL leafe nodes.
+A dockerized fork for nginx 1.12.0 customised to only check CRL leaf nodes.
 
 ## What's inside
  - Nginx 1.12.0 build from source and installed
@@ -14,7 +14,7 @@ A dockerized fork for nginx 1.12.0 customised to only check CRL leafe nodes.
 ## Purpose
 This image does a number of things:
  - Compiles Openssl 1.0.2 from source.
- - Compiles Nginx 1.12.0 from source. The version compiled is default 1.12.0, however this image makes changes to the src to make Nginx only check leafe nodes for CRLs. This is required if your organisation do not issue CRLs for the root CA. Nginx expects CRLs for every CA chain, this fork makes it so it will work with just leafe nodes.
+ - Compiles Nginx 1.12.0 from source. The version compiled is default 1.12.0, however this image makes changes to the src to make Nginx only check leaf nodes for CRLs. This is required if your organisation do not issue CRLs for the root CA. Nginx expects CRLs for every CA chain, this fork makes it so it will work with just leaf nodes.
 
 ## Docker image
 The docker image for this repo can be found [here](https://hub.docker.com/r/vect0r/nginx-crl-check/)
